@@ -1,0 +1,35 @@
+:root {
+  --theme-color: rgb(154 62 28);
+  --theme-text-light: aliceblue;
+}
+
+html {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: var(--theme-color);
+  color: var(--theme-text-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .contact-info h1 {
+  margin-top: 0;
+}
+
+main {
+  display: flex;
+}
+
+.section-title {
+  background-color: var(--theme-color);
+  color: var(--theme-text-light);
+  padding: .5rem;
+  display: inline-block;
+}
