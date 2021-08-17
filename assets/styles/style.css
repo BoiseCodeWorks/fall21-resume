@@ -19,8 +19,17 @@ header .contact-info h1 {
   margin-top: 0;
 }
 
+.profile-picture img{
+  transform: translateY(15%);
+}
+
+
 main {
   display: flex;
+}
+
+.right{
+  margin-top: 5rem;
 }
 
 .section-title {
