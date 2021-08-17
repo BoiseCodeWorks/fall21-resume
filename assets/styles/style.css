@@ -3,10 +3,6 @@
   --theme-text-light: aliceblue;
 }
 
-html {
-  border: 1px solid red;
-}
-
 body {
   margin: 0;
 }
@@ -30,6 +26,6 @@ main {
 .section-title {
   background-color: var(--theme-color);
   color: var(--theme-text-light);
-  padding: .5rem;
+  padding: 0.5rem;
   display: inline-block;
 }
